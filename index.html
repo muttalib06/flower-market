@@ -76,7 +76,7 @@
       <!-- plants section -->
       <section class="mt-32">
         <div class="text-center">
-          <h2 class="font-bold text-5xl" id="noto-serif-font">
+          <h2 class="font-bold text-5xl mb-3.5" id="noto-serif-font">
             <span class="text-[#E95A08]">Our</span> Plants
           </h2>
           <p class="text-[rgb(0,0,0,.5)] max-w-3xl mx-auto" id="inter-font">
@@ -235,18 +235,22 @@
       </section>
 
       <!-- flower and plants lover section -->
-      <section class="mt-32 flex justify-between items-center gap-x-14">
+      <section
+        class="mt-32 flex flex-col justify-between items-center sm:flex-row sm:gap-x-14"
+      >
         <div class="relative">
           <img src="assets/flower-store.png" alt="" />
-          <div class="absolute -top-[8rem] -right-[8rem] max-w-2xs">
+          <div
+            class="absolute -top-[8rem] -right-[8rem] max-w-2xs hidden sm:block"
+          >
             <img src="assets/trusted-badge.png" alt="" />
           </div>
         </div>
         <div>
-          <h2 class="font-bold text-5xl mb-5" id="noto-serif-font">
+          <h2 class="font-bold text-5xl mb-5 mt-4" id="noto-serif-font">
             Flower & Plants Lover
           </h2>
-          <div>
+          <div class="ml-2 sm:ml-0">
             <ul class="list-disc space-y-5">
               <li class="text-[rgb(0,0,0,.5)]" id="inter-font">
                 Indulge your senses with the beauty and fragrance of our fresh
@@ -264,6 +268,80 @@
                 wide variety of fresh.
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- latest deal section -->
+      <section class="mt-32">
+        <div class="text-center">
+          <h2 class="font-bold text-5xl mb-3.5" id="noto-serif-font">
+            <span class="text-[#E95A08]">Latest</span> Deals
+          </h2>
+          <p class="text-[rgb(0,0,0,.5)] max-w-3xl mx-auto" id="inter-font">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <div
+          class="flex items-center gap-7 justify-center mt-10 text-white flex-col sm:flex-row"
+          id="noto-serif-font"
+        >
+          <div class="space-y-5">
+            <div class="relative bg-[rgb(0,0,0,.4)] rounded-3xl">
+              <img
+                class="mix-blend-multiply rounded-3xl"
+                src="assets/deal-bloom.png"
+                alt=""
+              />
+              <div
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+              >
+                <h4 class="font-bold text-[1.1rem]" id="noto-serif-font">
+                  60% Off |Bloom Plant
+                </h4>
+                <h5 class="font-semibold text-[.9rem]" id="inter-font">
+                  Shop Now
+                </h5>
+                <hr class="max-w-[75px] mx-auto" />
+              </div>
+            </div>
+            <div class="relative bg-[rgb(0,0,0,.4)] rounded-3xl">
+              <img
+                class="rounded-3xl mix-blend-multiply"
+                src="assets/deal-ana.png"
+                alt=""
+              />
+              <div
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+              >
+                <h4 class="font-bold text-[1.1rem]" id="noto-serif-font">
+                  30% Off | Ana Plant
+                </h4>
+                <h5 class="font-semibold text-[.9rem]" id="inter-font">
+                  Shop Now
+                </h5>
+                <hr class="max-w-[75px] mx-auto" />
+              </div>
+            </div>
+          </div>
+          <div class="relative bg-[rgb(0,0,0,.4)] rounded-3xl">
+            <img
+              class="rounded-3xl mix-blend-multiply"
+              src="assets/deal-zabo.png"
+              alt=""
+            />
+            <div
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+            >
+              <h4 class="font-bold text-4xl" id="noto-serif-font">
+                25% Off | Zabo Plant
+              </h4>
+              <h5 class="font-semibold text-2xl" id="inter-font">Shop Now</h5>
+              <hr class="max-w-[100px] mx-auto" />
+            </div>
           </div>
         </div>
       </section>
