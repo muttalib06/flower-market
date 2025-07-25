@@ -26,7 +26,7 @@
     <!-- vanilla css -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="w-screen">
     <header class="px-4 sm:max-w-4/5 mx-auto mt-8">
       <!-- navbar section -->
       <nav class="flex justify-between items-center">
@@ -48,7 +48,7 @@
             >
           </li>
           <li>
-            <a href=""> <i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a>
+            <a href=""> <i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
           </li>
         </ul>
       </nav>
@@ -308,6 +308,7 @@
                 <hr class="max-w-[75px] mx-auto" />
               </div>
             </div>
+
             <div class="relative bg-[rgb(0,0,0,.4)] rounded-3xl">
               <img
                 class="rounded-3xl mix-blend-multiply"
@@ -327,6 +328,7 @@
               </div>
             </div>
           </div>
+
           <div class="relative bg-[rgb(0,0,0,.4)] rounded-3xl">
             <img
               class="rounded-3xl mix-blend-multiply"
@@ -346,6 +348,29 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer class="w-screen mt-11">
+      <!-- bunch  -->
+      <section class="relative">
+        <img class="w-full h-auto" src="assets/news-letter-bg.png" alt="" />
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full"
+        >
+          <h3 class="font-bold sm:text-5xl text-white" id="noto-serif-font">
+            Join the colorful Bunch
+          </h3>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Write Email"
+            class="bg-white w-[40%] px-5 py-2 mt-6"
+          />
+          <button class="bg-[#E95A08] text-white px-5 py-2 relative right-1.5">
+            Subscribe
+          </button>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
